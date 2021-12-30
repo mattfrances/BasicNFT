@@ -1,15 +1,5 @@
-# Basic Sample Hardhat Project
+# My basic NFT project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This project was used for educational purposes for learning how to build and launch basic NFTs. I followed the \_buildpsace course you can find [here](https://buildspace.so/).
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+The NFT randomly generates a sequence of 3 words from a predefined set of word options. Those 3 words are added to a black square background, and minted as an NFT. A sample collection can be found [here](https://testnets.opensea.io/collection/squarenft-gr0sec1kuj).
